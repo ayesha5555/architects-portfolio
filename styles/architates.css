@@ -1,0 +1,30 @@
+/* navContainer */
+nav{
+    display: flex;
+    text-align: center;
+    }
+.name{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 26px;
+    color: #424242;
+    margin-top:0px;
+    padding: 5px 5px;
+}
+nav p{
+    margin-left: 80px;
+}
+nav ul{
+    margin-left: 600px;
+    margin-top: 0px;
+}
+nav li{
+    font-size: 15px;
+    display: inline-block;
+    padding: 20px 20px;
+    justify-items: end;
+    text-decoration: none;
+}
+
+
