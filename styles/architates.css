@@ -1,19 +1,27 @@
-/* navContainer */
-nav{
+    /*......................... nav Container...................... 
+  ...............................................................*/
+  header{
+    background-color:#ff8f0e69 ;
+  }
+
+     nav{
     display: flex;
     text-align: center;
+    gap: 0px;
+    
     }
 .name{
     font-family: 'Poppins';
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 26px;
     color: #424242;
-    margin-top:0px;
+    
     padding: 5px 5px;
 }
 nav p{
     margin-left: 80px;
+    margin-top:5px;
 }
 nav ul{
     margin-left: 600px;
@@ -26,5 +34,220 @@ nav li{
     justify-items: end;
     text-decoration: none;
 }
+/* ........................banner section.............................
+..................................................................... */
 
 
+.tittle{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+
+}
+.banner-button{
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    background: #FF900E;
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+}
+.banner-image{
+    height: 400px;
+    width: 700px;
+    margin-bottom: 20px;
+}
+/* .........................features list part................ .....
+...................................................................*/
+.image-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   margin-left: 100px;
+   margin-bottom: 50px;
+}
+
+.list-container{
+    display: flex;
+    justify-content: center;
+   
+}
+.text-section{
+    align-items: center;
+    padding: 10px 10px;
+    margin-left: 80px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.list-tittle{
+    font-size: 45px;
+    gap: 5px;
+}
+h3{
+    color: #727272;
+
+}
+b{
+    color: #131313;
+}
+span{
+    color: #FF900E;
+}
+.list-button{
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    background: #FF900E;
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+}
+/* .........................feature part..............................
+......................................................................*/
+.features-container{
+      display: flex;
+      justify-content: space-between;
+      
+}
+.features-section{
+    margin-left: 100px;
+    
+    
+}
+.features-section p{
+    font-size: 16px;
+}
+
+.features-section ::after{
+   
+    width: 10px;
+    height: 100%;
+    border-left: 1rem solid #FF900E;
+    
+    position: absolute;
+    left: -40px;
+    top: 100px;
+}
+.features-container h2{
+    font-size: 45px;
+}
+.features-container p{
+    font-size: 16px;
+}
+.features-image{
+    margin-right: 200px;
+    height: 50px;
+    
+
+    
+}
+.features-button{
+    padding: 15px 15px;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 10px;
+    position: relative;
+    bottom: 120px;
+
+}
+
+/* .....................some facts part............................
+.................................................................... */
+.some-container{
+    margin-bottom: 5px;
+}
+.some-part{
+    margin-left: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.boxes{
+    width: 100%;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.box{
+    padding: 10px 10px;
+    width: 200px;
+    height: 150px;
+    background: #FFFFFF;
+    transition: 1s;
+    border: 1px solid #FF900E;
+    margin: 5px 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.box:hover{
+    transform: rotate(360deg);
+    
+}
+.box p{
+    font-size: 15px;
+}
+.box-span{
+    font-size: 20px;
+    color: #424242;
+}
+/* .....................sponspors part ............................
+.....................................................................*/
+.s-part{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sponspors-container{
+    margin-bottom: 30px;
+}
+/* ..........................extra part............................. 
+....................................................................*/
+.extra-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+
+.extra-text{
+    text-align: center;
+    margin-bottom: 100px;
+    border: 5px dashed #FF900E;
+    height: 600px;
+    width: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    background-color: #727272;
+
+}
+.extra-image{
+   margin-right: 30px;
+   margin-left: 50px;
+   margin-top: 10px;
+}
+/* .....................footer section.............................
+................................................................... */
+.footer h6{
+    text-align: center;
+    font-size:20px ;
+    color: #727272;
+}
+
+       
